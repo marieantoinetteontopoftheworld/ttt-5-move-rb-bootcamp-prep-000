@@ -1,6 +1,6 @@
-def display_board(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "], index, character = 'X')
+def display_board(board, index, character = 'X')
 
-  board[index] = character
+  board[index - 1] = character
 
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
