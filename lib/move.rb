@@ -1,4 +1,4 @@
-def display_board(board, index, character = 'X')
+def display_board(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "], index, character = 'X')
 
   board[index] = character
 
